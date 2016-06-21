@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Emailapp
+namespace MailEditor
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace Emailapp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AppMain());
+            Application.Run(new MessageEditor());
         }
     }
 }

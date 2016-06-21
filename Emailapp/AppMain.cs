@@ -3,16 +3,16 @@ using Syqosis.Mail;
 
 namespace Emailapp
 {
-    public partial class Form1 : Form
+    public partial class AppMain : Form
     {
-        public Form1()
+        public AppMain()
         {
             InitializeComponent();
         }
 
         public void test()
         {
-            
+            //BatchMailClient<MailRecipient> m = new BatchMailClient<MailRecipient>()
         }
     }
 }

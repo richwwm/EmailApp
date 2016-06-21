@@ -1,6 +1,6 @@
-﻿namespace Emailapp
+﻿namespace MailEditor
 {
-    partial class AppMain
+    partial class MessageEditor
     {
         /// <summary>
         /// Required designer variable.
